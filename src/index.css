@@ -1,0 +1,16 @@
+:root {
+  --clr-primary-orange: hsl(25, 97%, 53%);
+  --clr--neutral-white: hsl(0, 0%, 100%);
+  --clr-neutral-gray: hsl(217, 12%, 63%);
+  --clr-neutral-blue: hsl(213, 19%, 18%);
+  --clr-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  background-color: var(--clr-dark-blue);
+  color: var(--clr--neutral-white);
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

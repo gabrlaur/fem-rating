@@ -6,7 +6,6 @@
 body {
   background-color: var(--clr-dark-blue);
   color: var(--clr--neutral-white);
-  size: 15px;
   margin: 0;
   font-family: 'Overpass', sans-serif;
   -webkit-font-smoothing: antialiased;

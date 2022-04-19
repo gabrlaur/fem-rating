@@ -17,12 +17,42 @@
 }
 
 .pop-up {
-  width: 40%;
+  width: 20rem;
   background-color: var(--clr-neutral-blue);
   padding: 3rem;
   border-radius: 2rem;
 }
 
+/* RATINGS SELECTION */
+.pop-up__ratings-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pop-up__ratings {
+  display: none;
+}
+
+.pop-up__ratings-list > label {
+  background-color: var(--clr-neutral-blue);
+  width: 2rem;
+  height: 2rem;
+  padding: 0.25rem;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-up__ratings-list > label:hover {
+  background-color: var(--clr-primary-orange);
+}
+
+.pop-up__ratings-list input[type='radio']:checked + label {
+  background-color: var(--clr-neutral-gray);
+}
+
+/* SUBMIT BUTTON */
 .pop-up__button-container {
   display: flex;
   justify-content: center;
@@ -36,6 +66,13 @@
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  width: 70%;
-  padding: 0.35rem;
+  width: 100%;
+  padding: 0.45rem;
+  margin-top: 1.25rem;
+  border-radius: 2rem;
+}
+
+.pop-up__submit:hover {
+  background-color: var(--clr--neutral-white);
+  color: var(--clr-primary-orange);
 }
